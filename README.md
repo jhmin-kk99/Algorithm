@@ -26,7 +26,7 @@
 >    
 > *이분탐색   
 >    
-> *DP   
+> *[DP](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP.md)   
 >    
 > *최단거리   
 >    
