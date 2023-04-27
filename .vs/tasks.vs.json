@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-1463",
+      "appliesTo": "DP/1463.cpp",
+      "type": "launch"
+    }
+  ]
+}
