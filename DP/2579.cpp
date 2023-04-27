@@ -2,7 +2,6 @@
 #include <algorithm>
 using namespace std;
 int s[305], d[305][3], n;
-int flag = 0;
 
 int main()
 {
