@@ -6,4 +6,5 @@
 | __[Baekjoon 2579번](https://www.acmicpc.net/problem/2579)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2579.cpp)    |   
 | __[Baekjoon 1149번](https://www.acmicpc.net/problem/1149)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/1149.cpp)    |   
 | __[Baekjoon 11726번](https://www.acmicpc.net/problem/11726)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11726.cpp)    |   
-| __[Baekjoon 11659번](https://www.acmicpc.net/problem/11726)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11659.cpp)    |
+| __[Baekjoon 11659번](https://www.acmicpc.net/problem/11659)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11659.cpp)    |   
+| __[Baekjoon 12852번](https://www.acmicpc.net/problem/12852)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/12852.cpp)    |
