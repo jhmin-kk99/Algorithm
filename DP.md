@@ -13,3 +13,4 @@
 | __[Baekjoon 11727번](https://www.acmicpc.net/problem/11727)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11727.cpp)    | |
 | __[Baekjoon 2193번](https://www.acmicpc.net/problem/2193)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2193.cpp)    |_overflow 확인_ |
 | __[Baekjoon 1912번](https://www.acmicpc.net/problem/1912)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/1912.cpp)    |_연속합_|
+| __[Baekjoon 11055번](https://www.acmicpc.net/problem/11055)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11055.cpp)    |_증가하는 부분 수열의 합_|
