@@ -3,29 +3,36 @@
 
 using namespace std;
 int n;
-int d[100005], f[100005];
+int d[1005], f[1005];
 
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> f[i];
+        d[i] = f[i];
     }
 
-    for (int i = 1; i <= n; i++) {
-        d[i] = max(f[i], d[i - 1] + f[i]); // 새로 시작하거나 , 연속으로 이어붙이거나
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            if (f[i] > f[j])
+            {
+                d[i] = max(d[i], d[j] + f[i]); // ex) 1 49 25 26 27 28 50
+            }
+        }
     }
-
-    cout << *max_element(d + 1, d + n + 1);
-
+    cout << *max_element(d, d + n);
 }
 
 
 
-//D[i] = i까지 연속합의 최댓값 
-//D[i] = max(f[i], D[i-1] + f[i])
+//1 <= N <= 1000 이므로 O(N^2)도 고려해볼 수 있음
+//D[i] = i까지의 수열에서 f[i]가 가장 클 때의 증가하는 부분 수열의 최대 합
+
 
 
