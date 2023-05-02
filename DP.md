@@ -21,3 +21,4 @@
 | __[Baekjoon 1912번](https://www.acmicpc.net/problem/1912)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/1912.cpp)    |_연속합_|
 | __[Baekjoon 11055번](https://www.acmicpc.net/problem/11055)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11055.cpp)    |_증가하는 부분 수열의 합_|
 | __[Baekjoon 11053번](https://www.acmicpc.net/problem/11053)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11053.cpp)    ||
+| __[Baekjoon 9461번](https://www.acmicpc.net/problem/9461)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/9461.cpp)    ||
