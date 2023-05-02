@@ -1,4 +1,10 @@
 # DP   
+>*  _DP문제인지 확인_    
+>*  _테이블 구하기_    
+>*  _점화식 구하기_    
+>*  _초기값 구하기_   
+>>__테이블 구할 때, D[i]에서 i번째가 항상 주인공이 되어야 함__   
+
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
 | :--: | :--: |:--: |
 | __[Baekjoon 1463번](https://www.acmicpc.net/problem/1463)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/1463.cpp)    | |
@@ -14,3 +20,4 @@
 | __[Baekjoon 2193번](https://www.acmicpc.net/problem/2193)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2193.cpp)    |_overflow 확인_ |
 | __[Baekjoon 1912번](https://www.acmicpc.net/problem/1912)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/1912.cpp)    |_연속합_|
 | __[Baekjoon 11055번](https://www.acmicpc.net/problem/11055)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11055.cpp)    |_증가하는 부분 수열의 합_|
+| __[Baekjoon 11053번](https://www.acmicpc.net/problem/11053)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11053.cpp)    ||
