@@ -16,7 +16,7 @@
 >       
 > __비트마스킹__   
 >       
-> __그리디__   
+> __[그리디]((https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy.md))__   
 >       
 > __라인스위핑__   
 >    
