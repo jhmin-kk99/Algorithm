@@ -26,3 +26,4 @@
 | __[Baekjoon 15486번](https://www.acmicpc.net/problem/15486)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/15486.cpp)    ||
 | __[Baekjoon 10844번](https://www.acmicpc.net/problem/10844)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/10844.cpp)    |_단위 확인_|
 | __[Baekjoon 12865번](https://www.acmicpc.net/problem/12865)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/12865.cpp)    |_0-1 knapsack 문제_|
+| __[Baekjoon 12920번](https://www.acmicpc.net/problem/12920)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/12920.cpp)    |_비트마스킹_|
