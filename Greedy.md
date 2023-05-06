@@ -11,7 +11,7 @@ __관찰을 통해 탐색 범위를 줄이는 알고리즘__
 >>* _-> 일단은 넘어가고 다른 문제를 풀게 없거나 종료가 20-40분 남은 시점에 코딩 시작_      
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
 | :--: | :--: |:--: |
-| __[Baekjoon 11047번](https://www.acmicpc.net/problem/1463)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/11047.cpp)    | |
+| __[Baekjoon 11047번](https://www.acmicpc.net/problem/1463)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/11047.cpp)    | |
 
  
 
