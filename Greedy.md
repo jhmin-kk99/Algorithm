@@ -18,5 +18,5 @@ __관찰을 통해 탐색 범위를 줄이는 알고리즘__
 | __[Baekjoon 1026번](https://www.acmicpc.net/problem/1026)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/1026.cpp)    ||
 | __[Baekjoon 11399번](https://www.acmicpc.net/problem/11399)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/11399.cpp)    ||
 | __[Baekjoon 2457번](https://www.acmicpc.net/problem/2457)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/2457.cpp)    |_조건까다로움_|
-
+| __[Baekjoon 1541번](https://www.acmicpc.net/problem/1541)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/1541.cpp)    ||
 
