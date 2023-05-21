@@ -25,7 +25,6 @@ int main()
                 }
                 d[i] = max(d[i], d[j] + 1);
             }
-
         }
         if (d[i] > check) flag = i;
         check = max(check, d[i]);
