@@ -30,3 +30,4 @@
 | __[Baekjoon 2748번](https://www.acmicpc.net/problem/2748)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2748.cpp)    ||
 | __[Baekjoon 2240번](https://www.acmicpc.net/problem/2240)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2240.cpp)    ||
 | __[Baekjoon 14002번](https://www.acmicpc.net/problem/14002)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/14002.cpp)    |_역추적_|
+| __[Baekjoon 2156번](https://www.acmicpc.net/problem/2156)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2156.cpp)    |_역추적_|
