@@ -20,3 +20,4 @@ __관찰을 통해 탐색 범위를 줄이는 알고리즘__
 | __[Baekjoon 2457번](https://www.acmicpc.net/problem/2457)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/2457.cpp)    |_조건까다로움_|
 | __[Baekjoon 1541번](https://www.acmicpc.net/problem/1541)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/1541.cpp)    ||
 | __[Baekjoon 11051번](https://www.acmicpc.net/problem/11051)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/11051.cpp)    |_누적최댓값_|
+| __[Baekjoon 1744번](https://www.acmicpc.net/problem/1744)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/1744.cpp)    |_벡터활용_|
