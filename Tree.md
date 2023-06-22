@@ -21,7 +21,7 @@ void bfs(int root){
     for(auto nxt : adj[cur]){   
       if(p[cur] ==nxt) continue;   
       q.push(nxt);   
-      
+      p[nxt] = cur;
       depth[nxt] = depth[cur] + 1;   
     }   
   }   
