@@ -6,3 +6,6 @@ __인접 행렬, 인접 리스트로 구현 가능__
 >>*  _주의) DFS의 경우_
 >>* _스택 메모리가 작을 경우, 재귀로 구현하는 데 깊이가 깊어지면 문제가 생길 수 있음을 인지_
 
+| 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
+| :--: | :--: |:--: |
+| __[Baekjoon 11724번](https://www.acmicpc.net/problem/11724)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Graph/11724.cpp)    | |
