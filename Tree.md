@@ -62,3 +62,14 @@ void dfs(int cur){
    }  
 }   
 ```
+```
+<DFS 예시 코드 3 - 단순 순회, 재귀>   
+vector<int> adj[10]      
+void dfs(int cur, int par){   
+   cout << cur << ' ';
+   for(auto nxt : adj[cur]){
+    dfs(nxt, cur);
+   }  
+}   
+// call dfs(1, 0);
+```
