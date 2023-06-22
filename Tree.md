@@ -91,3 +91,5 @@ void dfs(int cur, int par){
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
 | :--: | :--: |:--: |
 | __[Baekjoon 11725번](https://www.acmicpc.net/problem/11725)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/11725.cpp)    | |
+| __[Baekjoon 1991번](https://www.acmicpc.net/problem/1991)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/1991.cpp)    |입력받을때 주의|
+| __[Baekjoon 25516번](https://www.acmicpc.net/problem/25516)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/25516.cpp)    | |
