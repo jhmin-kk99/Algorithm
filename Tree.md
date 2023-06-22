@@ -8,7 +8,7 @@ ____
 >*  _= V개의 정점을 가지고 V-1개의 간선을 가지는 Achclic(=사이클이 없는) 그래프_
 >*  _BFS/DFS_
 <BFS 예시 코드 1 - 부모 배열 채우기>   
-'''
+```
 vector<int> adj[10]      
 int p[10];     
 void bfs(int root){   
@@ -25,4 +25,4 @@ void bfs(int root){
     }   
   }   
 }   
-'''
+```
