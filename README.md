@@ -11,7 +11,7 @@
 >    
 > __[그래프](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Graph.md)__   
 >       
-> __트리순회__   
+> __[트리](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree.md)__   
 >    
 > __완전탐색__      
 >    
