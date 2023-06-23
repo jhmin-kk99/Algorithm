@@ -20,7 +20,7 @@ bool isprime(int n){
 >> N/x 또한 1이 아닌 N의 약수이기 때문에 x<= (N/x)이다.   
 >> 우변의 분모 x를 좌변으로 옮기면 x^2 <= N이므로 x <= √N.   
 >> ->   
->> 2부터 root N 까지의 수로 나누어지지 않으면 소수이다.   
+>> 2부터 √N 까지의 수로 나누어지지 않으면 소수이다.   
 ```
 bool isprime(int n){
   if(n == 1) return 0;
@@ -31,7 +31,25 @@ bool isprime(int n){
 }
 // O(√N)
 ```
-
+>> <범위 내에서의 소수판정법>   
+>> 2부터 √N 사이의 소수로만 나누어서 확인하면 됨
+```
+vector<int> primelist(int n){
+  vector<int> primes;
+  for(int i = 2; i <= n; i++){
+    bool isprime = 1;
+    for(int p : primes){
+      if(p*p > i) break;
+      if(i % p == 0){
+        isprime = 0;
+        break;
+       }
+    }
+    if(isprime) primes.push_back(i);
+  }
+  return primes;
+}
+``` 
 >*  _최대공약수_
 >>  
 >*  _연립합동방정식_
