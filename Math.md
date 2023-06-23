@@ -61,3 +61,4 @@ vector<int> primelist(int n){
 | :--: | :--: |:--: |
 | __[Baekjoon 1978번](https://www.acmicpc.net/problem/1978)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1978.cpp)    | |
 | __[Baekjoon 1929번](https://www.acmicpc.net/problem/1929)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1929.cpp)    |_범위 내에서의 소수판정법 - 에라토스테네스의 체_|
+ 
