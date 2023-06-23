@@ -12,6 +12,7 @@ bool isprime(int n){
   return 1;
 }
 //O(n)
+```
 <소수판정법>
 : 합성수 N에서 1을 제외한 가장 작은 약수는 √N 이하이다.
 ->
@@ -19,7 +20,7 @@ bool isprime(int n){
 N/x 또한 1이 아닌 N의 약수이기 때문에 x<= (N/x)이다.
 우변의 분모 x를 좌변으로 옮기면 x^2 <= N이므로 x <= √N.
 -> 2부터 root N 까지의 수로 나누어지지 않으면 소수이다.
-
+```
 bool isprime(int n){
   if(n == 1) return 0;
   for(int i = 2; i*i <= n; i++){
