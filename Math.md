@@ -33,6 +33,7 @@ bool isprime(int n){
 ```
 >> <범위 내에서의 소수판정법>   
 >> 2부터 √N 사이의 소수로만 나누어서 확인하면 됨
+>> 각 수의 1이 아닌 가장 작은 약수는 소수이기 때문
 ```
 vector<int> primelist(int n){
   vector<int> primes;
