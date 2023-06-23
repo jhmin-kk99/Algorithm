@@ -32,7 +32,7 @@ bool isprime(int n){
 // O(√N)
 ```
 >> <범위 내에서의 소수판정법>   
->> 2부터 √N 사이의 소수로만 나누어서 확인하면 됨
+>> 2부터 √N 사이의 소수로만 나누어서 확인하면 됨   
 >> 각 수의 1이 아닌 가장 작은 약수는 소수이기 때문
 ```
 vector<int> primelist(int n){
@@ -50,7 +50,27 @@ vector<int> primelist(int n){
   }
   return primes;
 }
-``` 
+```
+>> <범위 내에서의 소수판정법 - 에라토스테네스의 체>   
+```
+vector<int> sieve(int n){
+  vector<int> primes;
+  vector<bool> state(n+1, true);
+  //1. 각 bool 한 칸이 1 byte가 아니라 1 bit만 차지하도록 최적화가 이루어짐.  
+  //2. cache hit rate이 올라가서 시간도 빨라짐.
+  state[1] = false;
+  for(int i = 2; i*i <= n; i++){
+     if(!state[i]) continue;
+     for(int j = i*i; j<=n; j+=i)
+        state[j] = false;
+   }
+  for(int i = 2; i <= n; i++){
+    if(state[i]) primes.push_back(i);
+  }
+  return primes;
+}
+```
+
 >*  _최대공약수_
 >>  
 >*  _연립합동방정식_
