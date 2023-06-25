@@ -7,7 +7,7 @@
 ## 목차
 > __누적합__   
 >    
->__구현__   
+>__[구현](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Implementation.md)__   
 >    
 > __[그래프](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Graph.md)__   
 >       
