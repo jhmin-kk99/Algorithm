@@ -6,7 +6,8 @@
 - binary_search(시작, 끝, target) : true/false 반환
 - upper_bound(시작, 끝, target) , lower_bound(시작, 끝, target)   
 : target보다 큰 바로 다음 idx 반환 , target과 같은 가장 작은 idx 반환   
-- equal_range(시작, 끝, target) : lower_bound와 upper_bound를 pair로 묶어서 반환   
+- equal_range(시작, 끝, target) : lower_bound와 upper_bound를 pair로 묶어서 반환
+
 <주의사항>   
 1. 이분탐색을 하고자 한다면 주어진 배열은 정렬되어 있어야 한다.   
 2. 무한 루프에 빠지지 않게 mid 값을 정해야 한다.   
