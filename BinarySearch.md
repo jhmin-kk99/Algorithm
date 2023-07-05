@@ -2,7 +2,7 @@
 >> 이분탐색 = 정렬되어 있는 배열에서 특정 데이터를 찾기 위해 모든 데이터를 순차적으로
 >> 확인하는 대신 탐색 범위를 절반으로 줄여가며 찾는 탐색 방법 O(logN)
 
-<STL>
+<STL정리>
 >> binary_search(시작, 끝, target) : true/false 반환
 >> upper_bound(시작, 끝, target) , lower_bound(시작, 끝, target)   
 >> : target보다 큰 바로 다음 idx 반환 , target과 같은 가장 작은 idx 반환   
