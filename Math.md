@@ -144,5 +144,9 @@ int chk(){
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
 | :--: | :--: |:--: |
 | __[Baekjoon 1978번](https://www.acmicpc.net/problem/1978)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1978.cpp)    | |
-| __[Baekjoon 1929번](https://www.acmicpc.net/problem/1929)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1929.cpp)    |_범위 내에서의 소수판정법 - 에라토스테네스의 체_|
+| __[Baekjoon 1929번](https://www.acmicpc.net/problem/1929)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1929.cpp)    |_범위 내에서의 소수판정법 - 에라토스테네스의 체_|   
+| __[Baekjoon 11653번](https://www.acmicpc.net/problem/1978)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/11653.cpp)    | |
+| __[Baekjoon 6064번](https://www.acmicpc.net/problem/1978)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/6064.cpp)    |_연립합동방정식, 시간초과 주의_|
+| __[Baekjoon 11050번](https://www.acmicpc.net/problem/1978)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/11050.cpp)    | |
+| __[Baekjoon 11051번](https://www.acmicpc.net/problem/1978)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/11051.cpp)    |_dp로 응용_|
  
