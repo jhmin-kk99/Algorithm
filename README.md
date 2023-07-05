@@ -29,7 +29,7 @@
 >    
 > __LIS__   
 >    
-> __이분탐색__   
+> __[이분탐색](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch.md)__   
 >    
 > __[DP](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP.md)__   
 >    
