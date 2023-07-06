@@ -25,7 +25,7 @@
 >         
 > __라인스위핑__   
 >    
-> __투포인터__   
+> __[투포인터](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/TwoPointer.md)__   
 >    
 > __LIS__   
 >    
