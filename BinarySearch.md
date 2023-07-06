@@ -10,7 +10,7 @@
 - unique(시작, 끝) : 정렬된 상태에서 중복제거를 해주고 쓰레기 값의 시작 주소를 반환
   ```
   sort(uni.begin(), uni.end());
-	uni.erase(unique(uni.begin(), uni.end()), uni.end());
+  uni.erase(unique(uni.begin(), uni.end()), uni.end());
   ```
 
 <주의사항>   
