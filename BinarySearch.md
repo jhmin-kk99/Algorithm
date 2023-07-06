@@ -29,8 +29,41 @@
 2. 중복 제거 (unique이용)
 3. lower_bound(uni.begin(), uni.end(), x[i]) - uni.begin()
 
+<시간복잡도 줄이기(응용)> 
+예를 들어, 한 집합 a에서 a[i]+a[j]+a[k] = a[l] 인 l을 찾아야 할 때,
+two[m] = a[i] + a[j]인 배열을 만들어, a[l]-a[k] = two[m]을 이용한다.
+
+<Parametric Search>
+Parametric Search = 조건을 만족하는 최소/최댓값을 구하는 문제(최적화 문제)를
+결정 문제로 변환해 이분탐색을 수행하는 방법
+
+BOJ 1654 : 랜선 자르기
+(최적화 문제) N개를 만들 수 있는 랜선의 최대 길이
+(결정 문제) 랜선의 길이가 X일 때 랜선이 N개 이상인가 아닌가?
+
+Parametric Search를 할 때에는, 최적화 문제를 결정 문제로 바꿀 수 있는지
+생각하고, 그 결정 문제로 얻어낸 함수가 감소 혹은 증가함수인지를 따져야함.
+문제에서 최소 혹은 최대 얘기가 있고, 범위가 무지막지하게 크거나 시간
+복잡도에서 값 하나를 log로 잘 떨구면 될 것 같을 때 고려해볼 수 있음 
+
+무한루프에 빠지는 것을 주의해야하는데, 이는 l+h이 홀수여서 반으로 나누면 0.5
+가 남는 경우, 버림을 해줄 지 올림을 해줄 지에 대한 것이다.
+```
+while(l < h) {
+    m = (l + h + 1) / 2; //(m = (l + h) / 2의 경우 무한루프에 빠짐)
+
+    if( condition(m) ) {
+        l = m;
+    } else {
+        h = m - 1;
+    }
+}
+```
+
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
 | :--: | :--: |:--: |
 | __[Baekjoon 1920번](https://www.acmicpc.net/problem/1920)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1920.cpp)    | |
 | __[Baekjoon 10816번](https://www.acmicpc.net/problem/10816)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/10816.cpp)    | |
 | __[Baekjoon 18870번](https://www.acmicpc.net/problem/18870)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/18870.cpp)    |_좌표압축_|
+| __[Baekjoon 2295번](https://www.acmicpc.net/problem/2295)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/2295.cpp)    |_시간복잡도 줄이기_|
+| __[Baekjoon 1654번](https://www.acmicpc.net/problem/1654)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1654.cpp)    |_무한루프, overflow 주의_|
