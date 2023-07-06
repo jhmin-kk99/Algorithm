@@ -67,3 +67,4 @@ while(l < h) {
 | __[Baekjoon 18870번](https://www.acmicpc.net/problem/18870)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/18870.cpp)    |_좌표압축_|
 | __[Baekjoon 2295번](https://www.acmicpc.net/problem/2295)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/2295.cpp)    |_시간복잡도 줄이기_|
 | __[Baekjoon 1654번](https://www.acmicpc.net/problem/1654)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1654.cpp)    |_무한루프, overflow 주의_|
+
