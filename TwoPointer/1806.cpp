@@ -21,6 +21,6 @@ int main(void) {
         MN = min(MN, en - st + 1);
         tot -= a[st];
     }
-    int ans = MN != 0x7fffffff ? MN : 0;
-    cout << ans;
+    if (MN == 0x7fffffff) MN = 0;
+    cout << MN;
 }
