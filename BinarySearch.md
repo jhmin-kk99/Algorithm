@@ -4,8 +4,9 @@
 
 <STL정리>
 - binary_search(시작, 끝, target) : true/false 반환
-- upper_bound(시작, 끝, target) , lower_bound(시작, 끝, target)   
-: target보다 큰 바로 다음 idx 반환 , target과 같은 가장 작은 idx 반환   
+- upper_bound(시작, 끝, target) : 배열에서 처음으로 value값을 초과하는 원소의 주소를 반환
+- lower_bound(시작, 끝, target) : 배열에서 범위 내의 원소들 중 value값 보다 크거나 같은 첫 번째  
+  원소의 주소를 리턴   
 - equal_range(시작, 끝, target) : lower_bound와 upper_bound를 pair로 묶어서 반환
 - unique(시작, 끝) : 정렬된 상태에서 중복제거를 해주고 쓰레기 값의 시작 주소를 반환
   ```
