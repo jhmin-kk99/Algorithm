@@ -7,6 +7,11 @@
 - upper_bound(시작, 끝, target) , lower_bound(시작, 끝, target)   
 : target보다 큰 바로 다음 idx 반환 , target과 같은 가장 작은 idx 반환   
 - equal_range(시작, 끝, target) : lower_bound와 upper_bound를 pair로 묶어서 반환
+- unique(시작, 끝) : 정렬된 상태에서 중복제거를 해주고 쓰레기 값의 시작 주소를 반환
+  ```
+  sort(uni.begin(), uni.end());
+	uni.erase(unique(uni.begin(), uni.end()), uni.end());
+  ```
 
 <주의사항>   
 1. 이분탐색을 하고자 한다면 주어진 배열은 정렬되어 있어야 한다.   
@@ -20,8 +25,8 @@
 - ex) 2 4 -10 4 -9 -> 2 3 0 3 1
 
 정렬되지 않은 배열 : int x[]
-1. 리스트 정렬 (tmp)
-2. 중복 제거(크기 같은 수는 인접하다는 성질을 이용해 tmp로 부터 uni에 중복x인 수만 넣음) 
+1. 리스트 정렬 
+2. 중복 제거 (unique이용)
 3. lower_bound(uni.begin(), uni.end(), x[i]) - uni.begin()
 
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
