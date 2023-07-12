@@ -26,6 +26,8 @@
 > __라인스위핑__   
 >    
 > __[투포인터](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/TwoPointer.md)__   
+>
+> __[해시](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash.md)__   
 >    
 > __LIS__   
 >    
