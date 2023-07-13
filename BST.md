@@ -6,18 +6,20 @@
 > 자가 균형 트리(AVL트리, Red-Black트리) : 삽입, 검색, 삭제 -> O(logN)   
 
 > <STL 사용>
->> *set    
->> *multiset(set과 거의 동일, 중복O, find(아무거나 반환, lower_bound 사용),   
+>>* set    
+>>* multiset(set과 거의 동일, 중복O, find(아무거나 반환, lower_bound 사용),   
 >> erase(전부 삭제), upper_bound(k가 들어갔을 때 오름차순이 유지되는 가장 오른쪽 위치 ...   
 >> 런타임 에러 조심(가리키는 원소가 없을 수 있음)))   
->> *map   
+>>* map   
 
 ><Tip>
 >> 문제를 풀다가 set, map 느낌의 성질이 필요하면서 특히 lower_bound나 prev, next 등을   
 >> 시용해야만 풀리는 문제라면 꼭 STL set, map으로 해결을 해야함.   
 >> 또한 unordered_set/ unordered_map이 평균적으로는 속도가 빠를 수 있지만, 충돌이 얼마나   
 >> 빈번한가에 따라 속도의 저하가 발생할 수 있어 set, map을 사용하는 것을 사용하자.   
->> 다만 조금 느리다는 것을 기억하자. N = 100만 같이 큰 상황에서 생각한 풀이 방법이 O(NlonN)이고,  
+>> 다만 조금 느리다는 것을 기억하자.    
+
+>> N = 100만 같이 큰 상황에서 생각한 풀이 방법이 O(NlonN)이고,    
 >> set,map을 사용하게 되면 시간초과가 날 수 있음.    
 >> 이때는 unordered set/map을 이용하거나 이분탐색이나 정렬, 배열의 인덱스를 이용한 다른 풀이를   
 >> 고민해보자.   
