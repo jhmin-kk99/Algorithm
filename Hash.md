@@ -103,7 +103,144 @@ int my_hash(string& s){
 ```
 <Chaining>
 
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <unordered_map>
+#include <cassert>
+using namespace std;
 
+const int M = 1000003; //해시테이블 크기
+const int a = 1000; //곱하는 수
+const int MX = 500005; //최대 삽입 횟수
+int head[M];//각 M개의 연결리스트에 대한 시작주소
+int pre[MX];
+int nxt[MX];
+string key[MX];
+int val[MX];
+int unused = 0; //다음에 삽입할 위치
+
+int my_hash(string& s) {
+    int h = 0;
+    for (auto x : s)
+        h = (h * a + x) % M;
+    return h;
+}
+
+// key[idx] == k인 idx를 반환, 만약 k가 존재하지 않을 경우 -1을 반환
+// 키에 대응되는 값을 반환하는게 아니라 인덱스를 반환함에 주의
+
+int find(string k) {
+    int h = my_hash(k);
+    int idx = head[h];
+    while (idx != -1) {
+        if (key[idx] == k) return idx;
+        idx = nxt[idx];
+    }
+    return -1;
+}
+int insert(string k, int v) {
+    int idx = find(k);
+    if (idx != -1) {
+        val[idx] = v;
+        return -1;
+    }
+    int h = my_hash(k);
+    key[unused] = k;
+    val[unused] = v;
+    if (head[h] != -1) {
+        // 머리에 삽입
+        nxt[unused] = head[h];
+        pre[head[h]] = unused;
+    }
+    head[h] = unused;
+    unused++;
+
+}
+int erase(string k) {
+    int idx = find(k);
+    if (idx == -1) return -1;
+    if (pre[idx] != -1) nxt[pre[idx]] = nxt[idx];
+    if (nxt[idx] != -1)pre[nxt[idx]] = pre[idx];
+    int h = my_hash(k);
+    if (head[h] == idx) head[h] = nxt[idx];
+}
+void test() {
+  ...
+}
+
+int main(void) {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    fill(head, head + M, -1);
+    fill(pre, pre + M, -1);
+    fill(nxt, nxt + M, -1);
+    test();
+}
+```
+```
+<Open Addressing>
+
+#include <iostream>
+#include <cassert>
+using namespace std;
+
+const int M = 1000003;
+const int a = 1000;
+// 각 칸의 상태를 나타냄
+const int EMPTY = -1; //없음
+const int OCCUPY = 0; //있음
+const int DUMMY = 1; //원래 있었다가 제거
+int status[M]; // EMPTY / OCCUPY / DUMMY
+string key[M];
+int val[M];
+
+int my_hash(string& s) {
+    int h = 0;
+    for (auto x : s)
+        h = (h * a + x) % M;
+    return h;
+}
+
+// key[idx] == k인 idx를 반환, 만약 k가 존재하지 않을 경우 -1을 반환
+// key에 대응되는 value를 반환하는게 아니라 인덱스를 반환함에 주의
+int find(string k) {
+    int idx = my_hash(k);
+    while (status[idx] != EMPTY) {
+        if (status[idx] == OCCUPY && key[idx] == k) return idx;
+        idx = (idx + 1) % M;
+    }
+    return -1;
+}
+
+void insert(string k, int v) {
+    int idx = find(k);
+    if (idx != -1) {
+        val[idx] = v;
+        return;
+    }
+    idx = my_hash(k);
+    while (status[idx] == OCCUPY)
+        idx = (idx + 1) % M;
+    key[idx] = k;
+    val[idx] = v;
+    status[idx] = OCCUPY;
+}
+
+void erase(string k) {
+    int idx = find(k);
+    if (idx != -1) status[idx] = DUMMY;
+}
+
+void test() {
+   ...
+}
+
+int main() {
+    fill(status, status + M, EMPTY);
+    test();
+}
 ```
 
 
