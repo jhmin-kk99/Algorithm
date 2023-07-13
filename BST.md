@@ -12,7 +12,7 @@
 >> 런타임 에러 조심(가리키는 원소가 없을 수 있음)))   
 >>* map   
 
-> <Tip>   
+> <Tip!>   
 >> 문제를 풀다가 set, map 느낌의 성질이 필요하면서 특히 lower_bound나 prev, next 등을   
 >> 시용해야만 풀리는 문제라면 꼭 STL set, map으로 해결을 해야함.   
 >> 또한 unordered_set/ unordered_map이 평균적으로는 속도가 빠를 수 있지만, 충돌이 얼마나   
