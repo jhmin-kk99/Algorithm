@@ -62,11 +62,11 @@ while(l < h) {
 
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) | 
 | :--: | :--: |:--: |
-| __[Baekjoon 1920번](https://www.acmicpc.net/problem/1920)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1920.cpp)    | |
-| __[Baekjoon 10816번](https://www.acmicpc.net/problem/10816)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/10816.cpp)    | |
-| __[Baekjoon 18870번](https://www.acmicpc.net/problem/18870)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/18870.cpp)    |_좌표압축_|
-| __[Baekjoon 2295번](https://www.acmicpc.net/problem/2295)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/2295.cpp)    |_시간복잡도 줄이기_|
-| __[Baekjoon 1654번](https://www.acmicpc.net/problem/1654)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/1654.cpp)    |_무한루프, overflow 주의_|
-| __[Baekjoon 2230번](https://www.acmicpc.net/problem/2230)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Math/2230cpp)    |_투포인터로도 해결가능_|
+| __[Baekjoon 1920번](https://www.acmicpc.net/problem/1920)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/1920.cpp)    | |
+| __[Baekjoon 10816번](https://www.acmicpc.net/problem/10816)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/10816.cpp)    | |
+| __[Baekjoon 18870번](https://www.acmicpc.net/problem/18870)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/18870.cpp)    |_좌표압축_|
+| __[Baekjoon 2295번](https://www.acmicpc.net/problem/2295)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/2295.cpp)    |_시간복잡도 줄이기_|
+| __[Baekjoon 1654번](https://www.acmicpc.net/problem/1654)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/1654.cpp)    |_무한루프, overflow 주의_|
+| __[Baekjoon 2230번](https://www.acmicpc.net/problem/2230)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/2230cpp)    |_투포인터로도 해결가능_|
 
 

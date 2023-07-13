@@ -246,5 +246,5 @@ int main() {
 
 | 문제 번호 | 정답 코드 |  중요한 문제(아이디어) |    
 | :--: | :--: |:--: |   
-| __[Baekjoon 7785번](https://www.acmicpc.net/problem/7785)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/7785.cpp)    | |
-| __[Baekjoon 1620번](https://www.acmicpc.net/problem/1620)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy/1620.cpp)    | |
+| __[Baekjoon 7785번](https://www.acmicpc.net/problem/7785)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash/7785.cpp)    | |
+| __[Baekjoon 1620번](https://www.acmicpc.net/problem/1620)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash/1620.cpp)    | |
