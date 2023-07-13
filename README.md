@@ -31,6 +31,8 @@
 > __[해시](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash.md)__
 > 
 > __[이진 검색 트리](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BST.md)__
+>
+> __[우선순위큐](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue.md)__
 >    
 > __LIS__   
 >    
