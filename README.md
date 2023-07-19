@@ -18,7 +18,7 @@
 >    
 > __백트래킹__   
 >       
-> __비트마스킹__   
+> __[비트마스킹](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BitMasking.md)__   
 >       
 > __[그리디](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Greedy.md)__   
 >
@@ -43,5 +43,4 @@
 > __최단거리__   
 >    
 > __펜윅트리__   
->       
 
