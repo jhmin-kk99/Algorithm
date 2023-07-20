@@ -2,26 +2,16 @@
 #include <algorithm>
 #include <string>
 #include <vector>
+#include <stack>
 #define tc 10
 using namespace std;
 
-string root[102] = {};
-string lc[102] = {};
-string rc[102] = {};
-
-void Inorder(int cur) {
-    if (lc[cur] != " ") {
-        int idx = stoi(lc[cur]);
-        Inorder(idx);
-    }
-    cout << root[cur];
-    if (rc[cur] != " ") {
-        int idx = stoi(rc[cur]);
-        Inorder(idx);
-    }
-}
-
-vector<string> split(string& s, string& sep) { //split함수 구현
+string root[1002] = {};
+string lc[1002] = {};
+string rc[1002] = {};
+stack<string> st;
+int res = 0;
+vector<string> split(string& s, string& sep) {
     vector<string> ret;
     int pos = 0;
     while (pos < s.size()) {
@@ -34,6 +24,26 @@ vector<string> split(string& s, string& sep) { //split함수 구현
     return ret;
 }
 
+void Postorder(int cur) {
+    if (lc[cur] != " ")Postorder(stoi(lc[cur]));
+    if (rc[cur] != " ")Postorder(stoi(rc[cur]));
+    if (isdigit(root[cur][0])) st.push(root[cur]);
+    else {
+        string a, b;
+        a = st.top();
+        st.pop();
+        b = st.top();
+        st.pop();
+        if (root[cur][0] == '+') res = (stoi(b) + stoi(a));
+        else if (root[cur][0] == '-') res = (stoi(b) - stoi(a));
+        else if (root[cur][0] == '/') res = (stoi(b) / stoi(a));
+        else if (root[cur][0] == '*') res = (stoi(b) * stoi(a));
+        st.push(to_string(res));
+
+
+    }
+}
+
 int main(void) {
     ios::sync_with_stdio(0);
     cin.tie(0);
@@ -41,9 +51,11 @@ int main(void) {
         int n;
         cin >> n; // cin은 버퍼가 남아있음
         cin.ignore(); // 입력 버퍼 지우기
-        fill(root, root + 102, " ");
-        fill(lc, lc + 102, " ");
-        fill(rc, rc + 102, " ");
+        fill(root, root + 1002, " ");
+        fill(lc, lc + 1002, " ");
+        fill(rc, rc + 1002, " ");
+        while (!st.empty())st.pop();
+        res = 0;
         for (int j = 1; j <= n; j++) {
             string s;
             string sep = " ";
@@ -52,15 +64,14 @@ int main(void) {
             int cnt = 0;
             for (auto res : result) {
                 if (cnt == 1) root[j] = res;
-                else if (cnt == 2) lc[j] = res;
+                else if (cnt == 2)lc[j] = res;
                 else if (cnt == 3) rc[j] = res;
                 cnt++;
             }
-
         }
         cout << "#" << i << ' ';
-        Inorder(1);
-        cout << '\n';
+        Postorder(1);
+        cout << res << '\n';
     }
 
 }

@@ -40,7 +40,7 @@ void dfs(int root){
     s.pop();   
     cout << cur << ' ';   
     for(auto nxt : adj[cur]){   
-      if(p[cur] ==nxt) continue;   
+      if(p[cur] == nxt) continue;   
       s.push(nxt);   
       p[nxt] = cur;
       depth[nxt] = depth[cur] + 1;   
@@ -95,3 +95,6 @@ void dfs(int cur, int par){
 | __[Baekjoon 1991번](https://www.acmicpc.net/problem/1991)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/1991.cpp)    |_입력받을때 주의_|
 | __[Baekjoon 25516번](https://www.acmicpc.net/problem/25516)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/25516.cpp)    | |
 | __[SW Expert 1231번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD&categoryId=AV140YnqAIECFAYD&categoryType=CODE&problemTitle=1231&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/1231.cpp)    |split함수, 문자열|
+| __[SW Expert 1233번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD&categoryId=AV140YnqAIECFAYD&categoryType=CODE&problemTitle=1233&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/1233.cpp)    ||
+| __[SW Expert 1232번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD&categoryId=AV140YnqAIECFAYD&categoryType=CODE&problemTitle=1232&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/1232.cpp)    ||
+| __[SW Expert 1248번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD&categoryId=AV140YnqAIECFAYD&categoryType=CODE&problemTitle=1248&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree/1248.cpp)    ||
