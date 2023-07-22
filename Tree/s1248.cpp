@@ -3,7 +3,6 @@
 #include <vector>
 using namespace std;
 int par[10002];
-
 int vis[10002];
 int cnt = 1;
 
