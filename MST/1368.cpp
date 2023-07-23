@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <tuple>
-#include <cmath>
+
 using namespace std;
 vector<int> p(305, -1);
 int N;
