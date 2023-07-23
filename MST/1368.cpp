@@ -18,7 +18,6 @@ bool is_diff_group(int u, int v) {
 	else p[u] = v;
 	return 1;
 }
-
 vector<tuple<int, int, int>> edge;
 int main() {
 	ios::sync_with_stdio(0);
