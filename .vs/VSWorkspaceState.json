@@ -4,10 +4,11 @@
     "\\BitMasking",
     "\\Graph",
     "\\Linkedlist",
+    "\\MST",
     "\\TopologySort",
     "\\Tree",
     "\\TwoPointer"
   ],
-  "SelectedNode": "\\Tree\\s1248.cpp",
+  "SelectedNode": "\\MST\\1368.cpp",
   "PreviewInSolutionExplorer": false
 }
