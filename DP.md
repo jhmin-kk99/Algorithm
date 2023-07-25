@@ -31,3 +31,4 @@
 | __[Baekjoon 2240번](https://www.acmicpc.net/problem/2240)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2240.cpp)    ||
 | __[Baekjoon 14002번](https://www.acmicpc.net/problem/14002)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/14002.cpp)    |_역추적_|
 | __[Baekjoon 2156번](https://www.acmicpc.net/problem/2156)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/2156.cpp)    ||
+| __[SW Expert 3304번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOHEx66kIDFAWr&categoryId=AWBOHEx66kIDFAWr&categoryType=CODE&problemTitle=%EC%B5%9C%EC%9E%A5&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__  | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP/s3304.cpp)    |_[LST](https://hsp1116.tistory.com/37)_|

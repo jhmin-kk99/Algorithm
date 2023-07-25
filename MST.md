@@ -97,3 +97,4 @@ while(cnt < v - 1){
 | __[Baekjoon 1197번](https://www.acmicpc.net/problem/1197)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/MST/1197.cpp)    | |
 | __[SW Expert 1251번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15StKqAQkCFAYD)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/MST/1251.cpp)    | |
 | __[Baekjoon 1368번](https://www.acmicpc.net/problem/1368)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/MST/1368.cpp)    |_가상의 정점_|
+| __[SW Expert 고속도로2]__  | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/MST/s고속도로2.cpp)    | |
