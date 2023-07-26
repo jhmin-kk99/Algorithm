@@ -107,4 +107,6 @@ ____
 | __[Baekjoon 11286번](https://www.acmicpc.net/problem/11286)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue/11286.cpp)    | |
 | __[Baekjoon 1715번](https://www.acmicpc.net/problem/1715)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue/1715.cpp)    | |
 | __[SW Expert 보급로](https://jihongmin-99.tistory.com/75)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue/s보급로.cpp)    | |
+| __[SW Expert s3000](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV-fO0s6ARoDFAXT&categoryId=AV-fO0s6ARoDFAXT&categoryType=CODE&problemTitle=%EC%A4%91%EA%B0%84%EA%B0%92&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue/s3000.cpp)    | |
+| __[SW Expert 10806번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXTC4piqD_IDFASe&categoryId=AXTC4piqD_IDFASe&categoryType=CODE&problemTitle=10806&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue/s10801.cpp)    |_[어려움..](https://nankisu.tistory.com/38)_|
 
