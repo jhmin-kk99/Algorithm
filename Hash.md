@@ -248,3 +248,4 @@ int main() {
 | :--: | :--: |:--: |   
 | __[Baekjoon 7785번](https://www.acmicpc.net/problem/7785)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash/7785.cpp)    | |
 | __[Baekjoon 1620번](https://www.acmicpc.net/problem/1620)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash/1620.cpp)    | |
+| __[SW Expert 2948번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV-Un3G64SUDFAXr&categoryId=AV-Un3G64SUDFAXr&categoryType=CODE&problemTitle=%EB%AC%B8%EC%9E%90%EC%97%B4+%EA%B5%90%EC%A7%91&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Hash/s2948.cpp)    | |
