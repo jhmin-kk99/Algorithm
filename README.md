@@ -15,7 +15,9 @@
 > __[트리](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Tree.md)__   
 >    
 > __완전탐색__      
->    
+>
+> __[정렬]((https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Sort.md))__      
+>   
 > __백트래킹__   
 >       
 > __[비트마스킹](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BitMasking.md)__   
