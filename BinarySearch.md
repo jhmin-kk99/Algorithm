@@ -68,5 +68,6 @@ while(l < h) {
 | __[Baekjoon 2295번](https://www.acmicpc.net/problem/2295)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/2295.cpp)    |_시간복잡도 줄이기_|
 | __[Baekjoon 1654번](https://www.acmicpc.net/problem/1654)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/1654.cpp)    |_무한루프, overflow 주의_|
 | __[Baekjoon 2230번](https://www.acmicpc.net/problem/2230)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/2230cpp)    |_투포인터로도 해결가능_|
+| __[SW Expert 10507번](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXNQOb3avD0DFAXS&categoryId=AXNQOb3avD0DFAXS&categoryType=CODE&problemTitle=%EC%98%81%EC%96%B4&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)__   | [Solution](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch/s10507cpp)    ||
 
 
