@@ -1,5 +1,6 @@
 # 문자열
 
+```
 int main(){
   string s = "hello";
   s += " BKD!"; // hello BKD!
@@ -27,7 +28,7 @@ int main(){
   // b/ac/a/y/
   for(auto chunk : chunks2) cout << chunk << '/';
 }
-
+```
 split함수
 ```
 vector<string> split(string& s, string& sep){
