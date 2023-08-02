@@ -49,6 +49,8 @@
 > __최단거리__   
 >
 > __[KMP](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/KMP.md)__   
-> 
+>
+> __[Trie](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Trie.md)__   
+>    
 > __펜윅트리__   
 
