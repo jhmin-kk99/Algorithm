@@ -16,7 +16,8 @@
 >    
 > __완전탐색__      
 >
-> __[문자열](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/String.md)__   
+> __[문자열](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/String.md)__
+> 
 > __[정렬](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Sort.md)__      
 >   
 > __백트래킹__   
