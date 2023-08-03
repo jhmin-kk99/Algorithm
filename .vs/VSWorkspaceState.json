@@ -1,7 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Hash",
+    "\\BinarySearch",
     "\\Implementation",
     "\\KMP",
     "\\Linkedlist",
@@ -11,6 +11,6 @@
     "\\Tree",
     "\\TwoPointer"
   ],
-  "SelectedNode": "\\Hash.md",
+  "SelectedNode": "\\MST.md",
   "PreviewInSolutionExplorer": false
 }
