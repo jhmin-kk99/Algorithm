@@ -46,8 +46,10 @@
 >
 > __[위상정렬](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/TopologySort.md)__   
 >    
-> __최단거리__   
->
+> __[플로이드](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Floyd.md)__      
+>   
+> __[다익스트라](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Dijkstra.md)__
+>    
 > __[KMP](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/KMP.md)__   
 >
 > __[Trie](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Trie.md)__   
