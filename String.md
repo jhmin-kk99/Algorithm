@@ -36,6 +36,7 @@ vector<string> split(string& s, string& sep){
 	int pos = 0;
 	while(pos < s.size()){
 		int nxt_pos = s.find(sep, pos);
+        //pos 번째 부터 find
 		if(nxt_pos == -1) nxt_pos = s.size();
 		if(nxt_pos - pos > 0)
 			ret.push_back(s.substr(pos, nxt_pos - pos));

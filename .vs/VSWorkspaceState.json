@@ -1,16 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BinarySearch",
-    "\\Implementation",
-    "\\KMP",
-    "\\Linkedlist",
-    "\\MST",
-    "\\PriorityQueue",
-    "\\TopologySort",
-    "\\Tree",
-    "\\TwoPointer"
+    "\\Floyd"
   ],
-  "SelectedNode": "\\MST.md",
+  "SelectedNode": "\\Dijkstra.md",
   "PreviewInSolutionExplorer": false
 }
