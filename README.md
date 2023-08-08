@@ -38,7 +38,7 @@
 >
 > __[우선순위큐](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue.md)__
 >    
-> __[Simulation](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Simulatuin.md)__   
+> __[Simulation](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Simulation.md)__   
 >      
 >__[MST](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/MST.md)__        
 >       
