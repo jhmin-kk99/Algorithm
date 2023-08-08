@@ -38,9 +38,11 @@
 >
 > __[우선순위큐](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/PriorityQueue.md)__
 >    
-> __LIS__   
->    
-> __[이분탐색](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch.md)__   
+> __[Simulation](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/Simulatuin.md)__   
+>      
+>__[MST](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/MST.md)__        
+>       
+> __[이분탐색](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/BinarySearch.md)__      
 >    
 > __[DP](https://github.com/jhmin-kk99/Algorithm-Study/blob/main/DP.md)__   
 >
