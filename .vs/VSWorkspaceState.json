@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Floyd"
+    "\\Floyd",
+    "\\Simulation"
   ],
-  "SelectedNode": "\\Trie.md",
+  "SelectedNode": "\\MST.md",
   "PreviewInSolutionExplorer": false
 }
