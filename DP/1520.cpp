@@ -3,7 +3,7 @@ using namespace std;
 int m,n;
 int s[505][505];
 int dp[505][505];
-
+//dp[a][b] = c -> (a,b)에서 (m-1,n-1)까지 c개의 경로로 도달
 int dx[4]={0,-1,0,1};
 int dy[4]={1,0,-1,0};
 
